@@ -1,4 +1,4 @@
-#####################################
+##########################################################################
 # Author: Christopher Thomas Goodwin
 # Creation Date: 2023.11.01
 # Summary: Renames all Meldungen aus dem Reich files
@@ -16,6 +16,7 @@
 # Notable exceptions in database: Out of about 350 files, about 5 have the pattern "(Nr. #) vom DD Month YYYY"
 # These don't fit the pattern of the script and were manually altered
 # as it made more sense than to alter the script to account for something of such low frequency.
+##########################################################################
 
 from bs4 import BeautifulSoup
 
