@@ -49,6 +49,15 @@ for i in range(len(files)-1):
         print("here")
         del files[i]
 
+""" A better way in the future is to use the following code:
+files = []
+
+for file in os.listdir(path):
+    if file.endswith(".pdf"):
+        files.append(file)
+"""
+#Alternatively, GLOB could be used, see MeldungenAusDemReichPDFConversion.py
+
 
 for file in files:
 
