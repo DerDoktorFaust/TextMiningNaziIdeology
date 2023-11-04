@@ -8,17 +8,21 @@ This repository contains the scripts and machine learning programming performed 
 
 All files from the NSHWE database were downloaded in .html format without proper naming due to the time constraints imposed on the use of the database (i.e. files were downloaded with whatever default name the database gave them; these were often standard names and duplicates of each other. Therefore, MacOS appended numbers to the end to signify the order of download. The actual file names contain no usable data for analysis and therefore need to be renamed to some kind of identifying characteristic, which is most often the date of the document.
 
-The following file cleaning has been performed:
+The following file cleaning and conversions has been performed:
 
 - Extract the date from the top line of all Meldungen aus dem Reich HTML files and rename the files based on that date
 - Convert Meldungen aus dem Reich files from .html to .pdf (primarily for proper storage in my own bibliographic database)
 
-The following file cleaning has yet to be performed:
+The following file cleaning and conversions has yet to be performed:
 
 - Renaming all other files into a useable format
 - Converting files into PDF form
 - Converting files into TXT form to run machine learning analyses
 
+
+## Data Cleaning
+
+This section will be expanded once file cleaning has been performed
 
 ## Data Mining and Textual Analysis
 
