@@ -12,6 +12,8 @@ The following file cleaning and conversions has been performed:
 
 - Extract the date from the top line of all Meldungen aus dem Reich HTML files and rename the files based on that date
 - Convert Meldungen aus dem Reich files from .html to .pdf (primarily for proper storage in my own bibliographic database)
+- Extract the date from the top line of SD-Berichte zu Inlandsfragen HTML files and rename the files based on that date
+- Convert SD-Berichte zu Inlandsfragen files from .html to .pdf (primarily for proper storage in my own bibliographic database))
 
 The following file cleaning and conversions has yet to be performed:
 
