@@ -2,10 +2,14 @@
 # Author: Christopher Thomas Goodwin
 # Creation Date: 2023.11.12
 # Summary: Converts all files from Bericht an das Reichsministerium für Volksaufklärung und Propaganda from HTML to TXT
+#
+# Output: A .txt file in markdown
+# Markdown output format is intentional; due to the way the files are structured, markdown
+# will make future text cleaning easier
 ##########################################################################
 
-from bs4 import BeautifulSoup
 import glob
+import html2text
 
 path = "/Users/cgoodwin/Desktop/Bericht an das Reichsministerium für Volksaufklärung und Propaganda HTML/*.html"
 
@@ -13,12 +17,9 @@ path = "/Users/cgoodwin/Desktop/Bericht an das Reichsministerium für Volksaufk
 files = glob.glob(path) #*.html above ensures only HTML files are collected
 
 for file in files:
-    page = open(file)
-    soup = BeautifulSoup(page, features="html.parser")
-
-    text = soup.get_text()
 
     file_name = file[0:-4] + "txt"
+    text = open(file).read()
 
     with open(file_name, 'w') as output:
-        output.write(text)
+        output.write(html2text.html2text(text))
