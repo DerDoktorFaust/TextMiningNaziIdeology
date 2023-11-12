@@ -14,6 +14,9 @@ The following file cleaning and conversions has been performed:
 - Convert Meldungen aus dem Reich files from .html to .pdf (primarily for proper storage in my own bibliographic database)
 - Extract the date from the top line of SD-Berichte zu Inlandsfragen HTML files and rename the files based on that date
 - Convert SD-Berichte zu Inlandsfragen files from .html to .pdf (primarily for proper storage in my own bibliographic database))
+- Convert all files from Bericht an das Reichsministerium für Volksaufklärung und Propaganda from HTML to PDF (primarily for proper storage in my own bibliographic database)
+- Convert all files from Bericht an die Parteikanzlei from HTML to PDF
+- Convert all files from Bericht aus Akten der Geschäftsführenden Reichsregierung Dönitz from HTML to PDF
 
 The following file cleaning and conversions has yet to be performed:
 
