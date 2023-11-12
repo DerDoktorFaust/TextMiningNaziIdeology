@@ -24,9 +24,8 @@ The following file cleaning and conversions has been performed:
 
 The following file cleaning and conversions has yet to be performed:
 
-- Renaming all other files into a useable format
-- Converting files into PDF form
-- Converting files into TXT form to run machine learning analyses
+- Converting files into TXT form
+- Clean data files (text files) to run machine learning analyses
 
 
 ## Data Cleaning
