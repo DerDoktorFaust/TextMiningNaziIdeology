@@ -21,6 +21,7 @@ The following file cleaning and conversions has been performed:
 - Convert all files from Bericht an den Reichsschatzmeister der NSDAP from HTML to PDF
 - Convert all files from Vierteljahreslagebericht des Sicherheitshauptamtes from HTML to PDF
 - Convert all files from Meldungen über die Entwicklung in der öffentlichen Meinungsbildung from HTML to PDF
+- Convert all files from Bericht an das Reichsministerium für Volksaufklärung und Propaganda from HTML to TXT
 
 The following file cleaning and conversions has yet to be performed:
 
