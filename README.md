@@ -17,6 +17,8 @@ The following file cleaning and conversions has been performed:
 - Convert all files from Bericht an das Reichsministerium für Volksaufklärung und Propaganda from HTML to PDF (primarily for proper storage in my own bibliographic database)
 - Convert all files from Bericht an die Parteikanzlei from HTML to PDF
 - Convert all files from Bericht aus Akten der Geschäftsführenden Reichsregierung Dönitz from HTML to PDF
+- Convert all files from Meldungen aus den SD-Abschnittsbereichen from HTML to PDF
+- Convert all files from Bericht an den Reichsschatzmeister der NSDAP from HTML to PDF
 
 The following file cleaning and conversions has yet to be performed:
 
