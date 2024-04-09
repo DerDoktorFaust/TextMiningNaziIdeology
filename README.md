@@ -31,6 +31,7 @@ The following file cleaning and conversions have been performed:
 
 - Scripts have been completed for cleaning all Meldungen aus dem Reich and SD-Berichte zu Inlandsfragen text files
 - Scripts have been completed for combining individual files from Meldungen aus dem Reich and SD-Berichte zu Inlandsfragen
+- Scripts have been completed for cleaning and combining all other files in the Stimmungs- und Lageberichte section of the database (ready to move on to data mining and textual analysis)
 
 ## Data Mining and Textual Analysis
 
