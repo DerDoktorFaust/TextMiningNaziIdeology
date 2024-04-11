@@ -9,6 +9,11 @@
 import json
 import glob
 import os
+import nltk
+
+# later we will tokenize down to sentence level and need the NLTK and its German package to do this
+nltk.download("punkt")
+german_tokenizer = nltk.data.load('nltk:tokenizers/punkt/german.pickle')
 
 input_path = "/Users/cgoodwin/Desktop/00 - All Cleaned TXT Files/*.txt"
 
@@ -27,11 +32,14 @@ for file in files:
     collection = filename[filename.index("-")+2:] # always comes after the first hyphen in filename
 
     with open(file, "r") as f:
-        report = f.read().splitlines() # read in as a list of strings, join later
+        report = f.read().splitlines() # entire text read in as a string
+        report = " ".join(report)
 
-    data[str(file_count)] = {"date": date, "collection": collection, "report": " ".join(report)}
+        sentences = german_tokenizer.tokenize(report)
 
-    file_count += 1
+    for sentence in sentences:
+        data[file_count] = {"date": date, "collection": collection, "report": sentence}
+        file_count += 1
 
 #convert the data dictionary to json file and write it
 with open ("/Users/cgoodwin/Desktop/data.json", "w") as output_file:
