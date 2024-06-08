@@ -3,7 +3,7 @@
 # Creation Date: 2024.04.09
 # Summary: Cleans text files (Bericht an den Reichsschatzmeister der NSDAP) of extraneous text created by original database creators
 #
-# Outputs: Cleand .txt file of each original .txt file
+# Outputs: Cleaned .txt file of each original .txt file
 ##########################################################################
 
 import glob
